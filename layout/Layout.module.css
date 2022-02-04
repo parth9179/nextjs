@@ -1,0 +1,352 @@
+.header {
+  /* border-bottom: 0.7px solid #e2e2e2; */
+  padding: 22px 0px;
+}
+.leftside {
+  width: 100%;
+}
+.inner_header {
+  display: flex;
+  max-width: 1500px;
+  margin: auto;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.left_side {
+  cursor: pointer;
+}
+.right_side {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.inner_leftSideArea {
+  width: 75%;
+  margin: auto;
+}
+.inner_rightSideArea {
+  margin-left: auto;
+}
+.inner_rightSideArea a {
+  background: linear-gradient(
+    97.32deg,
+    #ff8900 -3.47%,
+    #ff8900 -3.46%,
+    #ff3141 108.43%
+  );
+  box-shadow: 0px 30px 50px rgb(168 22 75 / 15%);
+  padding: 14px 35px;
+  border-radius: 50px;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  display: inline-block;
+}
+.inner_rightSideArea a:hover {
+  background: #f17216;
+}
+
+/* Footer-css */
+.footermain {
+  background: linear-gradient(180deg, #3a3848 0%, #282732 98.95%);
+  color: #ffff;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+.footermain a {
+  color: #ffff;
+}
+.customcontainer {
+  max-width: 1500px;
+  margin: auto;
+}
+.customrows {
+  column-gap: 50px;
+}
+.footerLogo {
+  display: inline-block;
+  margin-bottom: 18px;
+  position: relative;
+  left: -19px;
+  cursor: pointer;
+}
+
+.footerDes {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: normal;
+}
+.commanTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #808089;
+  display: block;
+  margin-bottom: 16px;
+}
+.footerlist {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+.footerlist li {
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.footerlist li a:hover {
+  text-decoration: underline !important;
+  color: #ffff;
+}
+.footerlist li:last-child {
+  margin-bottom: 0px;
+}
+.address {
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.emailId a {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 23px;
+  position: relative;
+  padding-left: 34px;
+}
+.emailId a::before {
+  position: absolute;
+  content: "";
+  background: url(../assets/images/email_white.svg) no-repeat;
+  width: 24px;
+  height: 18px;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  top: 0;
+  background-size: 24px 18px;
+}
+.emailId a:hover,
+.phoneNumber a:hover {
+  color: #fff;
+  text-decoration: underline !important;
+}
+
+.phoneNumber a {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 23px;
+  position: relative;
+  padding-left: 34px;
+}
+.phoneNumber a:before {
+  position: absolute;
+  content: "";
+  background: url(../assets/images/call_white.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  top: 0;
+  background-size: 20px 20px;
+}
+.secondRowblogs {
+  margin-top: 25px;
+  padding-top: 22px;
+  border-top: 0.8px solid #d2d2d2;
+  margin-bottom: 25px;
+  padding-bottom: 40px;
+  border-bottom: 0.8px solid #d2d2d2;
+}
+.thirdRow {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+}
+
+.copyright {
+  text-align: right;
+  font-size: 13px;
+}
+.sociallinks {
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 30px;
+}
+
+.sociallinks a {
+  display: flex;
+  align-items: center;
+  background: #616163;
+  box-shadow: 0px 4px 14px rgb(0 0 0 / 15%);
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  border-radius: 100%;
+}
+.sociallinks a:hover {
+  background: linear-gradient(
+    97.32deg,
+    #ff8900 -3.47%,
+    #ff8900 -3.46%,
+    #ff3141 108.43%
+  );
+  transition: 0.3s all ease;
+}
+
+/* ----Media-query---- */
+@media (max-width: 1600px) {
+  .inner_header,
+  .customcontainer {
+    max-width: 1400px;
+    margin: auto;
+  }
+}
+@media (max-width: 1500px) {
+  .inner_header,
+  .customcontainer {
+    max-width: 1280px;
+    margin: auto;
+  }
+  .footermain {
+    padding-top: 50px;
+  }
+  .header {
+    padding: 15px 0px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .inner_header,
+  .customcontainer {
+    max-width: 92%;
+    margin: auto;
+  }
+  .right_side {
+    width: 78%;
+  }
+  .inner_rightSideArea a {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+  /* .footerDes {
+    font-size: 13px;
+    line-height: 22px;
+  } */
+  .footerlist li {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 7px;
+  }
+  /* .address {
+    font-size: 12px;
+    line-height: 21px;
+  } */
+  /* .emailId a,
+  .phoneNumber a {
+    font-size: 12px;
+  } */
+  /* .copyright {
+    font-size: 11px;
+  } */
+  .commanTitle {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  /* .sociallinks a {
+    width: 35px;
+    height: 35px;
+  } */
+  .secondRowblogs {
+    margin-top: 25px;
+    padding-top: 19px;
+    margin-bottom: 18px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 1151px) {
+  .inner_rightSideArea a {
+    padding: 6px 11px;
+    font-size: 12px;
+  }
+  .left_side {
+    width: 160px;
+  }
+  .right_side {
+    width: 80%;
+  }
+}
+
+@media (max-width: 991px) {
+  .footerDes br {
+    display: none;
+  }
+  .copyright {
+    margin: 12px 0px;
+    text-align: left;
+  }
+  .sociallinks {
+    justify-content: flex-start;
+  }
+  .inner_header,
+  .customcontainer {
+    flex-wrap: inherit !important;
+  }
+  .header {
+    position: relative;
+  }
+  .inner_rightSideArea {
+    /* margin-right: 50px;
+    margin-left: 0; */
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .inner_leftSideArea {
+    width: auto;
+    display: none !important;
+  }
+  .header {
+    padding: 10px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* .inner_rightSideArea {
+    margin-right: 40px;
+    margin-left: ;
+  } */
+  .thirdRow {
+    margin-top: 20px;
+    padding-bottom: 0;
+  }
+  .inner_rightSideArea a {
+    padding: 5px 19px;
+    font-size: 11px;
+  }
+  .footermain {
+    padding-top: 30px;
+  }
+  .footerLogo {
+    left: -14px;
+    width: 160px;
+    margin-bottom: 8px;
+  }
+  .footerDes {
+    margin-bottom: 0px !important;
+  }
+  .commanTitle {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+}

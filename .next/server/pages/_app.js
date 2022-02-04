@@ -1,434 +1,46 @@
-"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 730:
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction MyApp({ Component , pageProps  }) {\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n        ...pageProps\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\parth007\\\\Videos\\\\nextjs\\\\pages\\\\_app.js\",\n        lineNumber: 4,\n        columnNumber: 10\n    }, this));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUE4QjtTQUVyQkEsS0FBSyxDQUFDLENBQUMsQ0FBQ0MsU0FBUyxHQUFFQyxTQUFTLEVBQUMsQ0FBQyxFQUFFLENBQUM7SUFDeEMsTUFBTSw2RUFBRUQsU0FBUztXQUFLQyxTQUFTOzs7Ozs7QUFDakMsQ0FBQztBQUVELGlFQUFlRixLQUFLIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbXktYXBwLy4vcGFnZXMvX2FwcC5qcz9lMGFkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAnLi4vc3R5bGVzL2dsb2JhbHMuY3NzJ1xuXG5mdW5jdGlvbiBNeUFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pIHtcbiAgcmV0dXJuIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cbn1cblxuZXhwb3J0IGRlZmF1bHQgTXlBcHBcbiJdLCJuYW1lcyI6WyJNeUFwcCIsIkNvbXBvbmVudCIsInBhZ2VQcm9wcyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
+/***/ }),
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: external "react-bootstrap"
-var external_react_bootstrap_ = __webpack_require__(358);
-// EXTERNAL MODULE: ./const/enum.js + 35 modules
-var const_enum = __webpack_require__(402);
-;// CONCATENATED MODULE: ./layout/Footer.js
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
+/***/ (() => {
 
-
-
-function Footer() {
-    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)("footer", {
-        className: "footer-part-main",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "upper-row-main",
-                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "custom-container",
-                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_bootstrap_.Row, {
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Col, {
-                                lg: 3,
-                                sm: 12,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "logo-main",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Image, {
-                                        src: const_enum/* assetImage.Logo.src */.d.Logo.src,
-                                        alt: "Picture of the author"
-                                    })
-                                })
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_bootstrap_.Col, {
-                                lg: 3,
-                                sm: 12,
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "lable-name",
-                                        children: "Product"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Features"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Customer Stories"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Web Apps"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Mobile Apps"
-                                        })
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_bootstrap_.Col, {
-                                lg: 3,
-                                sm: 12,
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "lable-name",
-                                        children: "Product"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Blog"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Guides and Tutorials"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Help Center"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Community"
-                                        })
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_bootstrap_.Col, {
-                                lg: 3,
-                                sm: 12,
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "lable-name",
-                                        children: "Company"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "About Us"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Careers"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "News"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Talk to Sales"
-                                        })
-                                    })
-                                ]
-                            })
-                        ]
-                    })
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "custom-container",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "last-row-main",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "left-side-col",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Privacy"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Terms"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Cookie Preferences"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "link",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
-                                            children: "Contact Us"
-                                        })
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "right-side-col",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "#",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Image, {
-                                            src: const_enum/* assetImage.Facebook.src */.d.Facebook.src,
-                                            alt: "description of img"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "#",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Image, {
-                                            src: const_enum/* assetImage.Instagram.src */.d.Instagram.src,
-                                            alt: "description of img"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "#",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Image, {
-                                            src: const_enum/* assetImage.Linkedin.src */.d.Linkedin.src,
-                                            alt: "description of img"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "#",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Image, {
-                                            src: const_enum/* assetImage.Twitter.src */.d.Twitter.src,
-                                            alt: "description of img"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "#",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Image, {
-                                            src: const_enum/* assetImage.Youtube.src */.d.Youtube.src,
-                                            alt: "description of img"
-                                        })
-                                    })
-                                ]
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "copyright-line",
-                        children: "Copyright \xa9 2022. Jackett. All rights reserved."
-                    })
-                ]
-            })
-        ]
-    }));
-}
-/* harmony default export */ const layout_Footer = (Footer);
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(689);
-;// CONCATENATED MODULE: ./layout/Header.js
-
-
-
-
-function Header() {
-    const { 0: isActive , 1: setActive  } = (0,external_react_.useState)(true);
-    const toggleClass = ()=>{
-        setActive(!isActive);
-    };
-    const Navmenu = [
-        {
-            text: 'Why Jackett',
-            link: '/'
-        },
-        {
-            text: 'Features',
-            link: '/'
-        },
-        {
-            text: 'Community',
-            link: '/'
-        }
-    ];
-    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: isActive ? 'blue-line active' : 'blue-line',
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "text-line",
-                        children: [
-                            "Announcing our $250M fundraise to empower teachers and students. Read the announcement ",
-                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                href: "#",
-                                children: "here."
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "link-close",
-                        onClick: toggleClass,
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Image, {
-                            src: const_enum/* assetImage.CloseIcon.src */.d.CloseIcon.src,
-                            alt: "close"
-                        })
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("header", {
-                className: "header-main",
-                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "custom-container",
-                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "inner-header",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "logo-main",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Image, {
-                                    src: const_enum/* assetImage.Logo.src */.d.Logo.src,
-                                    alt: "Picture of the author"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "menu-item-custom",
-                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_bootstrap_.Navbar, {
-                                    bg: "white",
-                                    expand: "lg",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Navbar.Toggle, {
-                                            "aria-controls": "basic-navbar-nav"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Navbar.Collapse, {
-                                            id: "basic-navbar-nav",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Nav, {
-                                                className: "me-auto",
-                                                children: Navmenu.map((item, i)=>{
-                                                    // var isActive = router.pathname === item.link
-                                                    // var className = isActive ? 'active' : '';
-                                                    return(/*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Nav.Link, {
-                                                        href: item.link,
-                                                        children: item.text
-                                                    }, i));
-                                                })
-                                            })
-                                        })
-                                    ]
-                                })
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "last-col-main",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "#",
-                                        className: "comman-btn talk-to-sale",
-                                        children: "Talk to sale"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "#",
-                                        className: "comman-btn get-started",
-                                        children: "Get Started"
-                                    })
-                                ]
-                            })
-                        ]
-                    })
-                })
-            })
-        ]
-    }));
-}
-/* harmony default export */ const layout_Header = (Header);
-
-;// CONCATENATED MODULE: ./layout/Layout.js
-
-
-
-// import styles from "./Layout.module.css"
-function Layout({ children  }) {
-    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(layout_Header, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx("main", {
-                children: children
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(layout_Footer, {})
-        ]
-    }));
-}
-/* harmony default export */ const layout_Layout = (Layout);
-
-;// CONCATENATED MODULE: ./pages/_app.js
-
-
-
-
-
-
-function MyApp({ Component , pageProps  }) {
-    return(/*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.SSRProvider, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx(layout_Layout, {
-            children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                ...pageProps
-            })
-        })
-    }));
-}
-/* harmony default export */ const _app = (MyApp);
 
 
 /***/ }),
 
-/***/ 689:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
-module.exports = require("react");
-
-/***/ }),
-
-/***/ 358:
-/***/ ((module) => {
-
-module.exports = require("react-bootstrap");
-
-/***/ }),
-
-/***/ 997:
-/***/ ((module) => {
-
-module.exports = require("react/jsx-runtime");
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -439,7 +51,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [402], () => (__webpack_exec__(730)));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
 module.exports = __webpack_exports__;
 
 })();

@@ -1,5 +1,5 @@
 {
-  "name": "jackett_website",
+  "name": "nextjs",
   "private": true,
   "scripts": {
     "dev": "next dev",
